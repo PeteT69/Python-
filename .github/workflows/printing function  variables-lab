@@ -1,0 +1,13 @@
+john=3
+mary=5
+adam=6
+
+print("John has",+john,"apples")
+print("Mary has",+mary,"apples")
+print("Adam has",+adam,"apples")
+
+print(john,mary,adam)
+
+total_apples=adam+mary+john
+
+print(total_apples)
