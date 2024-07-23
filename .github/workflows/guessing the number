@@ -1,5 +1,5 @@
 secret_number = 777
-
+counter=0
 print(
 """
 +================================+
@@ -15,5 +15,9 @@ g_num=int(input("Enter a integer: "))
 while g_num !=secret_number:
     print("Ha ha! You're stuck in my loop!")
     g_num=int(input("Enter a integer: "))
+  counter+=1
 if g_num==secret_number:
     print("Well done, muggle! You are free now.")
+  print("Number of times your dumbass got it wrong",counter,"!!!
+ 
+  
