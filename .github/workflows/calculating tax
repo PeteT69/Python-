@@ -1,0 +1,15 @@
+income = float(input("Enter the annual income: "))
+
+# Calculate tax based on the income
+if income <= 85526:
+    tax = (18 / 100 * income) - 556.02
+else:
+    tax = 14839.02 + (32 / 100 * (income - 85526))
+
+# If tax is less than 0, print and exit
+if tax < 0:
+    print("The tax is: 0.0 thalers")
+else:
+    # Round the tax to the nearest integer and print
+    tax = round(tax, 0)
+    print("The tax is:", tax, "thalers")
