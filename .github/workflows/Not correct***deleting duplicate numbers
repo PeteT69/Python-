@@ -1,0 +1,20 @@
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+copy_list=my_list[:]
+
+found=False
+
+# Write your code here.
+#
+counter=0
+length=len(copy_list)
+
+    while counter <=length:
+        if copy_list[i]==copy_list[i+1]:
+            found=True
+            del copy_list[i+1]
+            counter+=1
+        
+print("Copy List",copy_list)
+    
+print("The list with unique elements only:")
+print(my_list)
