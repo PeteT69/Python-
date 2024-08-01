@@ -1,0 +1,15 @@
+def mysplit(strng):
+    if  (isinstance(strng,str)):
+        return strng.split(' ')
+    if strng==" ":
+        return []
+    else:
+       return print("Please enter a string")
+        
+    
+
+print(mysplit("To be or not to be, that is the question"))
+print(mysplit("To be or not to be,that is the question"))
+print(mysplit("   "))
+print(mysplit(" abc "))
+print(mysplit(""))
